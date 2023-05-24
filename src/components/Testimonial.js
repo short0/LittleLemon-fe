@@ -1,7 +1,5 @@
 const Testimonial = () => {
-    return (
-        <div>Testimonial</div>
-    )
+    return null;
 };
 
 export default Testimonial;
