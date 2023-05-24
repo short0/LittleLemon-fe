@@ -1,5 +1,5 @@
 import React from "react"; 
-import { Heading, VStack, HStack, Image, Button, ButtonGroup, Text } from "@chakra-ui/react"; 
+import { Heading, VStack, HStack, Image, Text } from "@chakra-ui/react"; 
 import owners from "../images/Mario and Adrian A.jpg"  
  
 const Hero = () => ( 
