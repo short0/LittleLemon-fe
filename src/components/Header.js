@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react"; 
-import { Box, HStack } from "@chakra-ui/react";
+import { Box, HStack, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import logo from "../images/Logo.svg" 
 
@@ -21,12 +21,12 @@ const Header = () => {
          </nav> 
          <nav> 
            <HStack spacing={8}> 
-                <Link to="/" className="nav-item">Home</Link>
-                <Link to="/about" className="nav-item">About</Link>
-                <Link to="/menu" className="nav-item">Menu</Link>
-                <Link to="/reservations" className="nav-item">Reservations</Link>
-                <Link to="/order-online" className="nav-item">Order Online</Link>
-                <Link to="/login" className="nav-item">Login</Link>
+                <Link to="/"><Text color="black">Home</Text></Link>
+                <Link to="/about"><Text color="black">About</Text></Link>
+                <Link to="/menu"><Text color="black">Menu</Text></Link>
+                <Link to="/reservations"><Text color="black">Reservations</Text></Link>
+                <Link to="/order-online"><Text color="black">Order Online</Text></Link>
+                <Link to="/login"><Text color="black">Login</Text></Link>
            </HStack> 
          </nav> 
        </HStack> 

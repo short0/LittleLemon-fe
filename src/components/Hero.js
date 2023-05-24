@@ -1,6 +1,7 @@
 import React from "react"; 
 import { Heading, VStack, HStack, Image, Button, ButtonGroup, Text } from "@chakra-ui/react"; 
-import restaurantFood from "../images/restauranfood.jpg"  
+import restaurantFood from "../images/restauranfood.jpg"
+import { Link } from "react-router-dom";
  
 const Hero = () => ( 
     <HStack
@@ -18,7 +19,7 @@ const Hero = () => (
             <Button
                 backgroundColor="#F4CE14"
                 color="#333333"
-            >Reserve a table</Button>
+            ><Link to="/reservations">Reserve a table</Link></Button>
         </VStack>
         <Image
             src={restaurantFood}
