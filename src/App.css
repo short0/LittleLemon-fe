@@ -44,3 +44,12 @@ footer {
 footer div {
     flex: 1;
 }
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
